@@ -1,0 +1,41 @@
+.link-input {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #405dbb;
+    transition: border-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .link-input:focus {
+    border-color: #2e4387;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(64, 93, 187, 0.5);
+  }
+  
+  .generate-button {
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .generate-button:before {
+    content: "";
+    position: absolute;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: all 0.5s;
+    z-index: 0;
+    opacity: 0;
+  }
+  
+  .generate-button:hover:before {
+    opacity: 1;
+  }
+  
+  .generate-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,0 +1,55 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .section {
+    margin: 2rem 0;
+  }
+  
+  .subtitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #405dbb;
+  }
+  
+  .valuesList {
+    list-style-type: disc;
+    padding-left: 2rem;
+  }
+  
+  .teamContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  .teamMember {
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  .teamImage {
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
