@@ -50,7 +50,7 @@ The backend uses Flask and the `linkedin-api` library to interact with LinkedIn,
 
    ```bash
    git clone https://github.com/Namit2111/Linkedin-to-resume
-   cd backend
+   cd Linkedin-to-resume/backend
    ```
 
 2. **Create a virtual environment**:
